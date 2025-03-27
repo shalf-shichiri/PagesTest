@@ -1,1 +1,43 @@
-{ "version": "1.0.0", "message": "Test update available" }
+{
+    "latest_version": "1.0.2",
+    "updates": [
+        {
+            "version": "1.0.2",
+            "date": "2025-04-01",
+            "changes": {
+                "added": [],
+                "fixed": [ "a.dll" ],
+                "removed": []
+            },
+            "description": "Updated a.dll to improve performance."
+        },
+        {
+            "version": "1.0.1",
+            "date": "2025-03-27",
+            "changes": {
+                "added": [ "a.dll" ],
+                "fixed": [],
+                "removed": []
+            },
+            "description": "Added a.dll for new feature support."
+        },
+        {
+            "version": "1.0.0",
+            "date": "2025-03-20",
+            "changes": {
+                "added": [],
+                "fixed": [],
+                "removed": []
+            },
+            "description": "Initial release (no changes recorded)."
+        }
+    ],
+    "files": [
+        {
+            "name": "a.dll",
+            "version": "1.0.2",
+            "url": "https://yourusername.github.io/installer-update/a.dll",
+            "hash": "NEW_SHA256_HASH"
+        }
+    ]
+}
